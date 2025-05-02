@@ -1,0 +1,41 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones del entorno
+.env
+.env.local
+*.log
+
+# Cache / Archivos temporales
+/tmp
+/cache
+/vendor
+
+# Composer
+composer.lock
+vendor/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema operativo
+*.bak
+*.swp
+
+# Archivos de base de datos temporales
+*.sql
+*.sqlite
+
+# Documentos personales o de configuración local
+*.iml
+
+# Backups
+*_backup.*
+*~ 
+
+# Configuración Docker (si aplica)
+docker-compose.override.yml
